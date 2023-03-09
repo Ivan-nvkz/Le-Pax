@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Le Pax</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+      <div class="btn__up">&uarr;</div>
+
+
+      <header class="header">
+         <div class="header__inner">
+            <div class="header__top">
+               <div class="container">
+                  <div class="header__top-inner">
+                     <div class="header__contacts">
+                        <div class="logo__box">
+                           <a class="logo" href="#">
+                              <img class="logo__img" src="images/logo.svg" alt="логотип">
+                           </a>
+                           <p class="logo__box-text">
+                              Помощь в подборе, покупке
+                              недвижимости и юридическое
+                              сопровождение сделки в ОАЭ
+                           </p>
+                        </div>
+                        <div class="contacts__box">
+                           <div class="contacts__social" data-da=".phone__body-inner,525,last">
+                              <p class="questions">
+                                 Есть вопрос?
+                                 Задайте онлайн
+                              </p>
+                              <ul class="contacts__social-list">
+                                 <li class="contacts__social-item">
+                                    <a class="contacts__social-link" href="#">
+                                       <svg class="social__img social__img-whatsapp" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.0913086" width="40" height="40" rx="20" fill="#20BC5F" />
+                                          <path
+                                             d="M24.3289 21.9798C24.0947 21.8595 22.9281 21.288 22.7111 21.2106C22.4941 21.129 22.3352 21.0903 22.1783 21.331C22.0193 21.5694 21.5682 22.1001 21.4264 22.2612C21.2889 22.4202 21.1492 22.4396 20.915 22.3214C19.5229 21.6253 18.6098 21.0796 17.6924 19.5048C17.4496 19.0858 17.9352 19.1159 18.3885 18.2114C18.4658 18.0524 18.4271 17.9171 18.367 17.7968C18.3068 17.6765 17.8342 16.512 17.6365 16.0372C17.4453 15.5753 17.2477 15.6397 17.1037 15.6312C16.9662 15.6226 16.8094 15.6226 16.6504 15.6226C16.4914 15.6226 16.2357 15.6827 16.0188 15.9169C15.8018 16.1554 15.1895 16.729 15.1895 17.8935C15.1895 19.0579 16.0381 20.1858 16.1541 20.3448C16.2744 20.5038 17.8234 22.8929 20.2018 23.922C21.7057 24.5708 22.2943 24.6267 23.0463 24.5149C23.5039 24.4462 24.4471 23.9435 24.6426 23.387C24.8381 22.8327 24.8381 22.3579 24.7801 22.2591C24.7221 22.1538 24.5631 22.0937 24.3289 21.9798Z"
+                                             fill="white" />
+                                          <path
+                                             d="M28.8775 16.3616C28.3919 15.2079 27.6958 14.1724 26.8085 13.2829C25.9212 12.3956 24.8857 11.6974 23.7298 11.214C22.5482 10.7177 21.2935 10.4663 20.0001 10.4663H19.9572C18.6552 10.4728 17.3941 10.7306 16.2081 11.2376C15.063 11.7274 14.0361 12.4235 13.1573 13.3108C12.2786 14.1981 11.589 15.2294 11.112 16.3788C10.6179 17.569 10.3687 18.8345 10.3751 20.1364C10.3816 21.6274 10.7382 23.1077 11.4064 24.4312V27.6968C11.4064 28.2425 11.8489 28.6851 12.3947 28.6851H15.6624C16.9859 29.3532 18.4661 29.7099 19.9572 29.7163H20.0023C21.2892 29.7163 22.5374 29.4671 23.7126 28.9794C24.862 28.5003 25.8954 27.8128 26.7806 26.9341C27.6679 26.0554 28.3661 25.0284 28.8538 23.8833C29.3609 22.6974 29.6187 21.4362 29.6251 20.1343C29.6316 18.8259 29.378 17.5562 28.8775 16.3616ZM25.6312 25.7718C24.1251 27.2628 22.1271 28.0835 20.0001 28.0835H19.9636C18.6681 28.0771 17.3812 27.7548 16.2447 27.1489L16.0642 27.0522H13.0392V24.0272L12.9425 23.8468C12.3366 22.7103 12.0144 21.4233 12.0079 20.1278C11.9993 17.9858 12.8179 15.9749 14.3197 14.4603C15.8193 12.9456 17.8238 12.1077 19.9657 12.0991H20.0023C21.0765 12.0991 22.1185 12.3075 23.1003 12.72C24.0585 13.1218 24.9179 13.6997 25.657 14.4388C26.3939 15.1757 26.9739 16.0372 27.3757 16.9954C27.7925 17.988 28.0009 19.0407 27.9966 20.1278C27.9837 22.2677 27.1437 24.2722 25.6312 25.7718Z"
+                                             fill="white" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li class="contacts__social-item">
+                                    <a class="contacts__social-link" href="#">
+                                       <svg class="social__img social__img-telegram" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.0913086" width="40" height="40" rx="20" fill="#0088CC"
+                                             fill-opacity="0.9" />
+                                          <path
+                                             d="M30 12.1968L10 20.0915L17.3684 21.1442M30 12.1968L27.3684 27.9863L17.3684 21.1442M30 12.1968L17.3684 21.1442M17.3684 21.1442V26.9336L20.7882 23.484"
+                                             stroke="white" stroke-width="1.57895" stroke-linecap="round"
+                                             stroke-linejoin="round" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="contacts__phone" data-da=".phone__body-inner,767,last">
+                              <div class="phone__item">
+                                 <a class="phone" href="tel:74953000000">
+                                    <img class="phone__picture" src="images/flag-russia.svg" alt="флаг России">
+                                    +7 495 300 00 00
+                                 </a>
+                                 <p class="phone__info">
+                                    офис продаж в Москве
+                                 </p>
+                              </div>
+                              <div class="phone__item">
+                                 <a class="phone" href="tel:971585344098">
+                                    <img class="phone__picture" src="images/flag-united-arab-emirates.svg"
+                                       alt="флаг ОАЭ">
+                                    +971 58 5344098
+                                 </a>
+                                 <p class="phone__info">
+                                    офис продаж в ОАЭ
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="mobile-phone__box">
+                           <button class="mobile-phone__btn">
+                              <img class="mobile-phone__img" src="images/icons/mobile-phone-icon.svg" alt="">
+                              Связаться
+                              <img class="mobile-arrow__img" src="images/icons/mobile-phone-arrow-down-icon.svg" alt="">
+                           </button>
+                           <div class="mobile-phone__body">
+                              <div class="phone__body-inner"></div>
+                           </div>
+                        </div>
+                        <button type="button" class="icon-menu"><span></span></button>
+                     </div>
+                     <div class="header__navigation">
+                        <nav class="menu">
+                           <ul class="menu__list">
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#company">Компания</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Каталог объектов</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Услуги</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Кейсы</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Преимущества</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Вопрос—ответ</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Контакты</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header__content">
+               <div class="container">
+                  <div class="header__content-inner">
+                     <div class="header__title-box">
+                        <p class="year">Работаем с 2012 года</p>
+                        <h1 class="header__title">
+                           Поможем подобрать недвижимость в ОАЭ
+                        </h1>
+                        <p class="header__description">
+                           Объекты только от проверенных застройщиков с возможностью получения гражданства и полным
+                           юридическим сопровождением
+                        </p>
+                        <div class="header__btn-box">
+                           <button class="pick__btn header__btn">
+                              Подобрать недвижимость
+                           </button>
+                           <div class="special-offer">
+                              <img class="special-offer__img" src="images/icons/special-offer-icon.svg" alt="">
+                              <p class="special-offer__text">
+                                 Получите специальное предложение
+                                 об актуальных апартаментах
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="header__info-box">
+                        <ul class="header__info-list">
+                           <li class="header__info-item">
+                              <p class="header__info-text">
+                                 Объекты под инвестиции и <br class="info-text-br"> получение гражданства
+                              </p>
+                           </li>
+                           <li class="header__info-item">
+                              <p class="header__info-text">
+                                 Полное юридическое <br class="info-text-br"> сопровождение сделки
+                              </p>
+                           </li>
+                           <li class="header__info-item">
+                              <p class="header__info-text">
+                                 Доходность при сдаче <br class="info-text-br"> недвижимости в аренду от 4%
+                              </p>
+                           </li>
+                           <li class="header__info-item">
+                              <p class="header__info-text">
+                                 Беспроцентная рассрочка <br class="info-text-br"> до 5-ти лет без %
+                              </p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+
+         <section class="company" id="company">
+            <div class="container">
+               <div class="company__wrapper">
+                  <div class="company__inner">
+                     <div class="numbers__block">
+                        <div class="numbers__block-inner">
+                           <div class="numbers__block-top">
+                              <div class="numbers__block-item">
+                                 <div class="numbers__block-title">
+                                    48
+                                 </div>
+                                 <div class="numbers__block-text">
+                                    квалифицированных
+                                    специалиста в команде
+                                 </div>
+                              </div>
+                              <div class="numbers__block-item">
+                                 <div class="numbers__block-title">
+                                    210+
+                                 </div>
+                                 <div class="numbers__block-text">
+                                    проверенных
+                                    новостроек <br class="numbers__block-text-br"> в базе
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="numbers__block-bottom">
+                              <div class="numbers__block-item">
+                                 <div class="numbers__block-title">
+                                    198
+                                 </div>
+                                 <div class="numbers__block-text">
+                                    инвестиционных
+                                    объекта в управлении
+                                 </div>
+                              </div>
+                              <div class="numbers__block-item">
+                                 <div class="numbers__block-title">
+                                    <span class="numbers__block-title--small">
+                                       до
+                                    </span>
+                                    30%
+                                 </div>
+                                 <div class="numbers__block-text">
+                                    годовых средняя
+                                    доходность в валюте
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content__block">
+                        <div class="content__block-inner">
+                           <div class="company__info">
+                              О компании
+                           </div>
+                           <div class="section-title__block">
+                              <h3 class="section__title section__title-company">
+                                 <b>LE PAX REALTY</b> — эксперты по недвижимости в оаэ
+                              </h3>
+                           </div>
+                           <ul class="company__content-list">
+                              <li class="company__content-item">
+                                 <p class="company__content-text">
+                                    Основным направлением работы LePax Realty является продажа апартаментов и вилл в
+                                    новых
+                                    жилых комплексах в Арабских Эмиратах.
+                                 </p>
+                              </li>
+                              <li class="company__content-item">
+                                 <p class="company__content-text">
+                                    Наша компания является партнером основных застройщиков Дубая. Для наших клиентов мы
+                                    отслеживаем закрытые продажи и предоставляем возможность участвовать в них. Даём
+                                    свою
+                                    экспертную оценку качества и перспективности объекта,исключая неудачные сделки.
+                                 </p>
+                              </li>
+                              <li class="company__content-item">
+                                 <p class="company__content-text">
+                                    За время работы нашего агентства мы обрели репутацию надежного партнера для банков,
+                                    застройщиков и инвесторов.
+                                 </p>
+                              </li>
+                           </ul>
+                           <button class="company__btn" data-da=".company__wrapper,1024,last">
+                              презентация о компании
+                              <svg class="company__btn-img" width="26" height="13" viewBox="0 0 26 13" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M25.5303 7.03033C25.8232 6.73744 25.8232 6.26256 25.5303 5.96967L20.7574 1.1967C20.4645 0.903806 19.9896 0.903806 19.6967 1.1967C19.4038 1.48959 19.4038 1.96447 19.6967 2.25736L23.9393 6.5L19.6967 10.7426C19.4038 11.0355 19.4038 11.5104 19.6967 11.8033C19.9896 12.0962 20.4645 12.0962 20.7574 11.8033L25.5303 7.03033ZM0 7.25H25V5.75H0V7.25Z"
+                                    fill="white" />
+                              </svg>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="offers" id="offers">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title">
+                        <b>Актуальные предложения</b> <br class="section-title__br">
+                     </h3>
+                     <p class="section__title-description">
+                        Собрали лучшую недвижимость Дубая только от известных и надежных застройщиков с безупречной
+                        репутацией
+                     </p>
+                  </div>
+               </div>
+               <div class="offers__inner">
+                  <div class="offers__tabs-block">
+                     <div class="offers__tabs-inner">
+                        <div class="tabs-box">
+                           <div class="tabs-box__inner">
+                              <div data-tabs="650" data-tabs-animate="1000" class="tabs">
+                                 <nav data-tabs-titles class="tabs__navigation">
+                                    <button type="button" class="tabs__title _tab-active">Жилые комлексы</button>
+                                    <button type="button" class="tabs__title">Виллы</button>
+                                    <button type="button" class="tabs__title">Отельные апартаменты</button>
+                                    <button type="button" class="tabs__title">Коммерческая недвижимость</button>
+                                 </nav>
+                                 <div data-tabs-body class="tabs__content">
+                                    <div class="tabs-body">
+                                       <div class="tabs-body__slider">
+                                          <div class="swiper tabs__slider-complexes">
+                                             <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-01.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Жилой комплекс</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Elitz Residences
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-02.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Жилой комплекс</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Binghatti
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-03.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Жилой комплекс</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Quarat prios
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-04.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Жилой комплекс</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Marina Shores
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-button-prev complexes-button-prev">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M25.0117 0.414551C11.211 0.414551 0.0233345 11.6074 0.0233345 25.4146C0.0233345 39.2217 11.211 50.4146 25.0117 50.4146C38.8123 50.4146 50 39.2217 50 25.4146C50 11.6074 38.8123 0.414551 25.0117 0.414551Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M19.8397 24.909L19.2504 25.4982L27.5 33.7478L28.6785 32.5693L21.6074 25.4982L28.6785 18.4272L27.5 17.2486L19.8397 24.909Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                             <div class="swiper-button-next complexes-button-next">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M24.9883 50.4146C38.789 50.4146 49.9767 39.2217 49.9767 25.4146C49.9767 11.6074 38.789 0.414551 24.9883 0.414551C11.1877 0.414551 0 11.6074 0 25.4146C0 39.2217 11.1877 50.4146 24.9883 50.4146Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M30.1603 25.9201L30.7496 25.3309L22.5 17.0813L21.3215 18.2598L28.3926 25.3309L21.3215 32.4019L22.5 33.5805L30.1603 25.9201Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                          </div>
+                                          <div class="swiper-pagination complexes-pagination"></div>
+                                       </div>
+                                    </div>
+                                    <div class="tabs-body">
+                                       <div class="tabs-body__slider">
+                                          <div class="swiper tabs__slider-villas">
+                                             <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-04.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Вилла</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Elitz Residences
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-03.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Вилла</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Binghatti
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-02.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Вилла</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Quarat prios
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-01.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Вилла</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Marina Shores
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-button-prev villas-button-prev">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M25.0117 0.414551C11.211 0.414551 0.0233345 11.6074 0.0233345 25.4146C0.0233345 39.2217 11.211 50.4146 25.0117 50.4146C38.8123 50.4146 50 39.2217 50 25.4146C50 11.6074 38.8123 0.414551 25.0117 0.414551Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M19.8397 24.909L19.2504 25.4982L27.5 33.7478L28.6785 32.5693L21.6074 25.4982L28.6785 18.4272L27.5 17.2486L19.8397 24.909Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                             <div class="swiper-button-next villas-button-next">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M24.9883 50.4146C38.789 50.4146 49.9767 39.2217 49.9767 25.4146C49.9767 11.6074 38.789 0.414551 24.9883 0.414551C11.1877 0.414551 0 11.6074 0 25.4146C0 39.2217 11.1877 50.4146 24.9883 50.4146Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M30.1603 25.9201L30.7496 25.3309L22.5 17.0813L21.3215 18.2598L28.3926 25.3309L21.3215 32.4019L22.5 33.5805L30.1603 25.9201Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                          </div>
+                                          <div class="swiper-pagination villas-pagination"></div>
+                                       </div>
+                                    </div>
+                                    <div class="tabs-body">
+                                       <div class="tabs-body__slider">
+                                          <div class="swiper tabs__slider-apartments">
+                                             <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-02.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Апартаменты</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Elitz Residences
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-04.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Апартаменты</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Binghatti
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-01.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Апартаменты</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Quarat prios
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-03.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Апартаменты</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Marina Shores
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-button-prev apartments-button-prev">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M25.0117 0.414551C11.211 0.414551 0.0233345 11.6074 0.0233345 25.4146C0.0233345 39.2217 11.211 50.4146 25.0117 50.4146C38.8123 50.4146 50 39.2217 50 25.4146C50 11.6074 38.8123 0.414551 25.0117 0.414551Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M19.8397 24.909L19.2504 25.4982L27.5 33.7478L28.6785 32.5693L21.6074 25.4982L28.6785 18.4272L27.5 17.2486L19.8397 24.909Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                             <div class="swiper-button-next apartments-button-next">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M24.9883 50.4146C38.789 50.4146 49.9767 39.2217 49.9767 25.4146C49.9767 11.6074 38.789 0.414551 24.9883 0.414551C11.1877 0.414551 0 11.6074 0 25.4146C0 39.2217 11.1877 50.4146 24.9883 50.4146Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M30.1603 25.9201L30.7496 25.3309L22.5 17.0813L21.3215 18.2598L28.3926 25.3309L21.3215 32.4019L22.5 33.5805L30.1603 25.9201Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                          </div>
+                                          <div class="swiper-pagination apartments-pagination">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="tabs-body">
+                                       <div class="tabs-body__slider">
+                                          <div class="swiper tabs__slider-commercial">
+                                             <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-03.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Коммерческая недвижимость</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Elitz Residences
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-01.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Коммерческая недвижимость</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Binghatti
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-02.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Коммерческая недвижимость</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Quarat prios
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                   <img class="slide__pictures" src="images/slider/complexes-04.jpg"
+                                                      alt="">
+                                                   <div class="slide__card">
+                                                      <div class="slide__card-inner">
+                                                         <p class="card__label">Коммерческая недвижимость</p>
+                                                         <div class="card__body">
+                                                            <h3 class="card__title">
+                                                               Marina Shores
+                                                            </h3>
+                                                            <div class="card__info-box">
+                                                               <div class="card__info card__city">
+                                                                  <span class="city">
+                                                                     Город:
+                                                                  </span>
+                                                                  <span class="city__name">
+                                                                     Дубай
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__area">
+                                                                  <span class="area">
+                                                                     Район:
+                                                                  </span>
+                                                                  <span class="area__name">
+                                                                     Business Bay
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__type">
+                                                                  <span class="type">
+                                                                     Тип:
+                                                                  </span>
+                                                                  <span class="type__name">
+                                                                     Жилой комплекс
+                                                                  </span>
+                                                               </div>
+                                                               <div class="card__info card__square">
+                                                                  <span class="square">
+                                                                     Площадь:
+                                                                  </span>
+                                                                  <span class="square__name">
+                                                                     от 95 м²
+                                                                  </span>
+                                                               </div>
+                                                            </div>
+                                                            <div class="card__price-box">
+                                                               <span class="card__price">
+                                                                  от 390 000 USD
+                                                               </span>
+                                                            </div>
+                                                            <div class="card__button-box">
+                                                               <a class="card__btn" href="#">
+                                                                  Узнать подробности
+                                                               </a>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-button-prev commercial-button-prev">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M25.0117 0.414551C11.211 0.414551 0.0233345 11.6074 0.0233345 25.4146C0.0233345 39.2217 11.211 50.4146 25.0117 50.4146C38.8123 50.4146 50 39.2217 50 25.4146C50 11.6074 38.8123 0.414551 25.0117 0.414551Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M19.8397 24.909L19.2504 25.4982L27.5 33.7478L28.6785 32.5693L21.6074 25.4982L28.6785 18.4272L27.5 17.2486L19.8397 24.909Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                             <div class="swiper-button-next commercial-button-next">
+                                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                                   xmlns="http://www.w3.org/2000/svg">
+                                                   <path
+                                                      d="M24.9883 50.4146C38.789 50.4146 49.9767 39.2217 49.9767 25.4146C49.9767 11.6074 38.789 0.414551 24.9883 0.414551C11.1877 0.414551 0 11.6074 0 25.4146C0 39.2217 11.1877 50.4146 24.9883 50.4146Z"
+                                                      fill="white" fill-opacity="0.08" />
+                                                   <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M30.1603 25.9201L30.7496 25.3309L22.5 17.0813L21.3215 18.2598L28.3926 25.3309L21.3215 32.4019L22.5 33.5805L30.1603 25.9201Z"
+                                                      fill="white" />
+                                                </svg>
+                                             </div>
+                                          </div>
+                                          <div class="swiper-pagination commercial-pagination">
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+         <section class="partners">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title">
+                        <b>Официальные партнеры</b> <br class="section-title__br">
+                        ведущие девелоперы ОАЭ
+                     </h3>
+                     <p class="section__title-description">
+                        Мы входим в список доверенных агентств-партнеров крупнейших девелоперов в Арабских Эмиратах
+                     </p>
+                  </div>
+               </div>
+
+
+               <div class="partners__inner">
+
+               </div>
+            </div>
+         </section>
+
+
+
+      </main>
+
+
+      <footer class="footer">
+         <div class="container">
+
+            я футер
+         </div>
+      </footer>
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
